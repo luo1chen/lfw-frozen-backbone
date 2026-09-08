@@ -1,0 +1,122 @@
+[
+  {
+    "key": "hu2022lora",
+    "authors": "Hu, E. J., Shen, Y., Wallis, P., et al.",
+    "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+    "venue": "ICLR",
+    "year": 2022,
+    "doi_or_id": "arXiv:2106.09685"
+  },
+  {
+    "key": "benzaken2022bitfit",
+    "authors": "Ben-Zaken, E., Goldberg, Y., Ravfogel, S.",
+    "title": "BitFit: Simple Parameter-efficient Fine-tuning for Transformer-based Masked Language-models",
+    "venue": "ACL (short)",
+    "year": 2022,
+    "doi_or_id": "DOI:10.18653/v1/2022.acl-short.1; arXiv:2106.10199"
+  },
+  {
+    "key": "lian2022ssf",
+    "authors": "Lian, D., Zhou, D., Feng, J., et al.",
+    "title": "Scaling & Shifting Your Features: A New Baseline for Efficient Model Tuning",
+    "venue": "NeurIPS",
+    "year": 2022,
+    "doi_or_id": "arXiv:2210.08823"
+  },
+  {
+    "key": "houlsby2019adapter",
+    "authors": "Houlsby, N., Giurgiu, A., Jastrzebski, S., et al.",
+    "title": "Parameter-Efficient Transfer Learning for NLP",
+    "venue": "ICML",
+    "year": 2019,
+    "doi_or_id": "arXiv:1902.00751"
+  },
+  {
+    "key": "li2021prefix",
+    "authors": "Li, X. L., Liang, P.",
+    "title": "Prefix-Tuning: Optimizing Continuous Prompts for Generation",
+    "venue": "ACL",
+    "year": 2021,
+    "doi_or_id": "arXiv:2101.00190"
+  },
+  {
+    "key": "lester2021prompt",
+    "authors": "Lester, B., Al-Rfou, R., Constant, N.",
+    "title": "The Power of Scale for Parameter-Efficient Prompt Tuning",
+    "venue": "EMNLP",
+    "year": 2021,
+    "doi_or_id": "DOI:10.18653/v1/2021.emnlp-main.243; arXiv:2104.08691"
+  },
+  {
+    "key": "liu2023ptuningv2",
+    "authors": "Liu, X., Zheng, Y., Du, Z., et al.",
+    "title": "GPT Understands, Too",
+    "venue": "AI Open",
+    "year": 2023,
+    "doi_or_id": "arXiv:2103.10385"
+  },
+  {
+    "key": "hayou2024loraplus",
+    "authors": "Hayou, S., Ghosh, N., Yu, B.",
+    "title": "LoRA+: Efficient Low Rank Adaptation of Large Models",
+    "venue": "ICML",
+    "year": 2024,
+    "doi_or_id": "arXiv:2402.12354"
+  },
+  {
+    "key": "liu2024dora",
+    "authors": "Liu, S.-Y., Wang, C.-Y., Yin, H., et al.",
+    "title": "DoRA: Weight-Decomposed Low-Rank Adaptation",
+    "venue": "ICML (Oral)",
+    "year": 2024,
+    "doi_or_id": "arXiv:2402.09353"
+  },
+  {
+    "key": "he2022unified",
+    "authors": "He, J., Zhou, C., Ma, X., et al.",
+    "title": "Towards a Unified View of Parameter-Efficient Transfer Learning",
+    "venue": "ICLR (Spotlight)",
+    "year": 2022,
+    "doi_or_id": "arXiv:2110.04366"
+  },
+  {
+    "key": "han2024peftsurvey",
+    "authors": "Han, Z., Gao, C., Liu, J., et al.",
+    "title": "Parameter-Efficient Fine-Tuning for Large Models: A Comprehensive Survey",
+    "venue": "TMLR (Transactions on Machine Learning Research)",
+    "year": 2024,
+    "doi_or_id": "arXiv:2403.14608"
+  },
+  {
+    "key": "li2024loftq",
+    "authors": "Li, Y., Yu, Y., Liang, C., et al.",
+    "title": "LoftQ: LoRA-Fine-Tuning-Aware Quantization for Large Language Models",
+    "venue": "ICLR (Oral)",
+    "year": 2024,
+    "doi_or_id": "arXiv:2310.08659"
+  },
+  {
+    "key": "liu2022ia3",
+    "authors": "Liu, H., Tam, D., Muqeeth, M., et al.",
+    "title": "Few-Shot Parameter-Efficient Fine-Tuning is Better and Cheaper than In-Context Learning",
+    "venue": "NeurIPS",
+    "year": 2022,
+    "doi_or_id": "arXiv:2205.05638"
+  },
+  {
+    "key": "kopiczko2024vera",
+    "authors": "Kopiczko, D. J., Blankevoort, T., Asano, Y. M.",
+    "title": "VeRA: Vector-based Random Matrix Adaptation",
+    "venue": "ICLR",
+    "year": 2024,
+    "doi_or_id": "arXiv:2310.11454"
+  },
+  {
+    "key": "dettmers2023qlora",
+    "authors": "Dettmers, T., Pagnoni, A., Holtzman, A., et al.",
+    "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+    "venue": "NeurIPS",
+    "year": 2023,
+    "doi_or_id": "arXiv:2305.14314"
+  }
+]

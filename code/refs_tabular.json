@@ -1,0 +1,106 @@
+[
+  {
+    "key": "shwartz2022tabular",
+    "authors": "Shwartz-Ziv, R., & Armon, A.",
+    "title": "Tabular data: Deep learning is not all you need",
+    "venue": "Information Fusion, 81, 84-90",
+    "year": 2022,
+    "doi_or_id": "10.1016/j.inffus.2021.11.011"
+  },
+  {
+    "key": "gorishniy2021revisiting",
+    "authors": "Gorishniy, Y., Rubachev, I., Khrulkov, V., & Babenko, A.",
+    "title": "Revisiting deep learning models for tabular data",
+    "venue": "Advances in Neural Information Processing Systems 34 (NeurIPS 2021), 18932-18943",
+    "year": 2021,
+    "doi_or_id": "https://arxiv.org/abs/2106.11959"
+  },
+  {
+    "key": "gorishniy2022embeddings",
+    "authors": "Gorishniy, Y., Rubachev, I., & Babenko, A.",
+    "title": "On embeddings for numerical features in tabular deep learning",
+    "venue": "Advances in Neural Information Processing Systems 35 (NeurIPS 2022)",
+    "year": 2022,
+    "doi_or_id": "https://arxiv.org/abs/2203.05556"
+  },
+  {
+    "key": "arik2021tabnet",
+    "authors": "Arik, S. O., & Pfister, T.",
+    "title": "TabNet: Attentive interpretable tabular learning",
+    "venue": "Proceedings of the AAAI Conference on Artificial Intelligence, 35(8), 6679-6687",
+    "year": 2021,
+    "doi_or_id": "10.1609/aaai.v35i8.16826"
+  },
+  {
+    "key": "grinsztajn2022treemodels",
+    "authors": "Grinsztajn, L., Oyallon, E., & Varoquaux, G.",
+    "title": "Why do tree-based models still outperform deep learning on typical tabular data?",
+    "venue": "Advances in Neural Information Processing Systems 35 (NeurIPS 2022), Datasets and Benchmarks Track",
+    "year": 2022,
+    "doi_or_id": "https://arxiv.org/abs/2207.08815"
+  },
+  {
+    "key": "dua2017uci",
+    "authors": "Dua, D., & Graff, C.",
+    "title": "UCI Machine Learning Repository",
+    "venue": "University of California, Irvine, School of Information and Computer Science",
+    "year": 2017,
+    "doi_or_id": "https://archive.ics.uci.edu"
+  },
+  {
+    "key": "anguita2013har",
+    "authors": "Anguita, D., Ghio, A., Oneto, L., Parra, X., & Reyes-Ortiz, J. L.",
+    "title": "A public domain dataset for human activity recognition using smartphones",
+    "venue": "Proceedings of the 21st European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning (ESANN 2013), Bruges, Belgium",
+    "year": 2013,
+    "doi_or_id": "https://www.esann.org/sites/default/files/proceedings/legacy/es2013-84.pdf"
+  },
+  {
+    "key": "li2017featureselection",
+    "authors": "Li, J., Cheng, K., Wang, S., Morstatter, F., Trevino, R. P., Tang, J., & Liu, H.",
+    "title": "Feature selection: A data perspective",
+    "venue": "ACM Computing Surveys, 50(6), Article 94, 1-45",
+    "year": 2017,
+    "doi_or_id": "10.1145/3136625"
+  },
+  {
+    "key": "ross2014mutualinfo",
+    "authors": "Ross, B. C.",
+    "title": "Mutual information between discrete and continuous data sets",
+    "venue": "PLoS ONE, 9(2), e87357",
+    "year": 2014,
+    "doi_or_id": "10.1371/journal.pone.0087357"
+  },
+  {
+    "key": "tibshirani1996lasso",
+    "authors": "Tibshirani, R.",
+    "title": "Regression shrinkage and selection via the lasso",
+    "venue": "Journal of the Royal Statistical Society: Series B (Methodological), 58(1), 267-288",
+    "year": 1996,
+    "doi_or_id": "10.1111/j.2517-6161.1996.tb02080.x"
+  },
+  {
+    "key": "breiman2001randomforest",
+    "authors": "Breiman, L.",
+    "title": "Random forests",
+    "venue": "Machine Learning, 45(1), 5-32",
+    "year": 2001,
+    "doi_or_id": "10.1023/A:1010933404324"
+  },
+  {
+    "key": "kingma2015adam",
+    "authors": "Kingma, D. P., & Ba, J.",
+    "title": "Adam: A method for stochastic optimization",
+    "venue": "3rd International Conference on Learning Representations (ICLR 2015), San Diego, CA, USA",
+    "year": 2015,
+    "doi_or_id": "https://arxiv.org/abs/1412.6980"
+  },
+  {
+    "key": "lundberg2017shap",
+    "authors": "Lundberg, S. M., & Lee, S.-I.",
+    "title": "A unified approach to interpreting model predictions",
+    "venue": "Advances in Neural Information Processing Systems 30 (NIPS 2017), 4765-4774",
+    "year": 2017,
+    "doi_or_id": "https://arxiv.org/abs/1705.07874"
+  }
+]

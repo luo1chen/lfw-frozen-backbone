@@ -1,0 +1,52 @@
+{
+ "USPS": {
+  "lr_LinearProbe": 0.01,
+  "lr_BitFit": 0.01,
+  "lr_SSF": 0.01,
+  "lr_Adapter": 0.01,
+  "lr_LoRA": 0.003,
+  "lr_FFT": 0.0001,
+  "l1": 0.0001,
+  "l2": 0.0
+ },
+ "C10C_gaussian_noise": {
+  "lr_LinearProbe": 0.001,
+  "lr_BitFit": 0.003,
+  "lr_SSF": 0.01,
+  "lr_Adapter": 0.001,
+  "lr_LoRA": 0.003,
+  "lr_FFT": 0.0001,
+  "l1": 0.0001,
+  "l2": 0.0001
+ },
+ "C10C_motion_blur": {
+  "lr_LinearProbe": 0.003,
+  "lr_BitFit": 0.01,
+  "lr_SSF": 0.01,
+  "lr_Adapter": 0.001,
+  "lr_LoRA": 0.001,
+  "lr_FFT": 0.001,
+  "l1": 0.0001,
+  "l2": 0.0
+ },
+ "C10C_fog": {
+  "lr_LinearProbe": 0.01,
+  "lr_BitFit": 0.01,
+  "lr_SSF": 0.01,
+  "lr_Adapter": 0.01,
+  "lr_LoRA": 0.003,
+  "lr_FFT": 0.0001,
+  "l1": 0.0001,
+  "l2": 0.0
+ },
+ "C10C_brightness": {
+  "lr_LinearProbe": 0.003,
+  "lr_BitFit": 0.01,
+  "lr_SSF": 0.01,
+  "lr_Adapter": 0.003,
+  "lr_LoRA": 0.003,
+  "lr_FFT": 0.0001,
+  "l1": 0.0001,
+  "l2": 0.0
+ }
+}

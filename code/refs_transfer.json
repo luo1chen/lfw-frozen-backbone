@@ -1,0 +1,138 @@
+[
+  {
+    "key": "pan2010survey",
+    "authors": "Pan, S. J., Yang, Q.",
+    "title": "A Survey on Transfer Learning",
+    "venue": "IEEE TKDE",
+    "year": 2010,
+    "doi_or_id": "DOI:10.1109/TKDE.2009.191"
+  },
+  {
+    "key": "li2018explicit",
+    "authors": "Li, X., Grandvalet, Y., Davoine, F.",
+    "title": "Explicit Inductive Bias for Transfer Learning with Convolutional Networks",
+    "venue": "ICML",
+    "year": 2018,
+    "doi_or_id": "arXiv:1802.01483"
+  },
+  {
+    "key": "wang2018visual",
+    "authors": "Wang, M., Deng, W.",
+    "title": "Deep Visual Domain Adaptation: A Survey",
+    "venue": "Neurocomputing",
+    "year": 2018,
+    "doi_or_id": "DOI:10.1016/j.neucom.2018.05.083"
+  },
+  {
+    "key": "kornblith2019better",
+    "authors": "Kornblith, S., Shlens, J., Le, Q. V.",
+    "title": "Do Better ImageNet Models Transfer Better?",
+    "venue": "CVPR",
+    "year": 2019,
+    "doi_or_id": "DOI:10.1109/CVPR.2019.00277; arXiv:1805.08974"
+  },
+  {
+    "key": "liang2020shot",
+    "authors": "Liang, J., Hu, D., Feng, J.",
+    "title": "Do We Really Need to Access the Source Data? Source Hypothesis Transfer for Unsupervised Domain Adaptation",
+    "venue": "ICML",
+    "year": 2020,
+    "doi_or_id": "arXiv:2002.08546"
+  },
+  {
+    "key": "zoph2020rethinking",
+    "authors": "Zoph, B., Ghiasi, G., Lin, T.-Y., et al.",
+    "title": "Rethinking Pre-training and Self-training",
+    "venue": "NeurIPS",
+    "year": 2020,
+    "doi_or_id": "arXiv:2006.06888"
+  },
+  {
+    "key": "wang2021tent",
+    "authors": "Wang, D., Shelhamer, E., Liu, S., et al.",
+    "title": "Tent: Fully Test-Time Adaptation by Entropy Minimization",
+    "venue": "ICLR",
+    "year": 2021,
+    "doi_or_id": "arXiv:2006.10726"
+  },
+  {
+    "key": "hendrycks2021imagenetr",
+    "authors": "Hendrycks, D., Basart, S., Mu, N., et al.",
+    "title": "The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Robustness Benchmarks",
+    "venue": "ICCV",
+    "year": 2021,
+    "doi_or_id": "arXiv:2006.16241"
+  },
+  {
+    "key": "lecun1998gradient",
+    "authors": "LeCun, Y., Bottou, L., Bengio, Y., Haffner, P.",
+    "title": "Gradient-Based Learning Applied to Document Recognition",
+    "venue": "Proceedings of the IEEE",
+    "year": 1998,
+    "doi_or_id": "10.1109/5.726791"
+  },
+  {
+    "key": "hull1994database",
+    "authors": "Hull, J. J.",
+    "title": "A Database for Handwritten Text Recognition Research",
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "year": 1994,
+    "doi_or_id": "10.1109/34.291440"
+  },
+  {
+    "key": "krizhevsky2009learning",
+    "authors": "Krizhevsky, A.",
+    "title": "Learning Multiple Layers of Features from Tiny Images",
+    "venue": "Technical Report, University of Toronto",
+    "year": 2009,
+    "doi_or_id": "-"
+  },
+  {
+    "key": "hendrycks2019benchmarking",
+    "authors": "Hendrycks, D., Dietterich, T.",
+    "title": "Benchmarking Neural Network Robustness to Common Corruptions and Perturbations",
+    "venue": "ICLR",
+    "year": 2019,
+    "doi_or_id": "arXiv:1903.12261"
+  },
+  {
+    "key": "kumar2022finetune",
+    "authors": "Kumar, A., Raghunathan, A., Jones, R., et al.",
+    "title": "Fine-Tuning can Distort Pretrained Features and Underperform Out-of-Distribution",
+    "venue": "ICLR (Oral)",
+    "year": 2022,
+    "doi_or_id": "arXiv:2202.10054"
+  },
+  {
+    "key": "evci2022head2toe",
+    "authors": "Evci, U., Dumoulin, V., Larochelle, H., Mozer, M. C.",
+    "title": "Head2Toe: Utilizing Intermediate Representations for Better Transfer Learning",
+    "venue": "ICML (Oral)",
+    "year": 2022,
+    "doi_or_id": "arXiv:2201.03529"
+  },
+  {
+    "key": "wortsman2022robust",
+    "authors": "Wortsman, M., Ilharco, G., Kim, J. W., et al.",
+    "title": "Robust fine-tuning of zero-shot models",
+    "venue": "CVPR",
+    "year": 2022,
+    "doi_or_id": "arXiv:2109.01903"
+  },
+  {
+    "key": "song2023noisy",
+    "authors": "Song, H., Kim, M., Park, D., et al.",
+    "title": "Learning From Noisy Labels With Deep Neural Networks: A Survey",
+    "venue": "IEEE TNNLS",
+    "year": 2023,
+    "doi_or_id": "DOI:10.1109/TNNLS.2022.3152527"
+  },
+  {
+    "key": "wang2023generalizing",
+    "authors": "Wang, J., Lan, C., Liu, C., et al.",
+    "title": "Generalizing to Unseen Domains: A Survey on Domain Generalization",
+    "venue": "IEEE TKDE",
+    "year": 2023,
+    "doi_or_id": "DOI:10.1109/TKDE.2022.3178128"
+  }
+]

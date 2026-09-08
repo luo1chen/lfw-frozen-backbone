@@ -1,0 +1,7 @@
+{
+ "USPS": "official",
+ "C10C_gaussian_noise": "generated_official_recipe",
+ "C10C_motion_blur": "generated_official_recipe",
+ "C10C_fog": "generated_official_recipe",
+ "C10C_brightness": "generated_official_recipe"
+}

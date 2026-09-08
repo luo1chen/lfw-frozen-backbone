@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# large regenerable artifacts (rebuilt deterministically by the run scripts)
+results/sci_pretrained/
+results/sci_viz_*.npz
+results/*_quick.*
+*.pt
+*.pth
