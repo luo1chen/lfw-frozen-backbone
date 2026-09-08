@@ -128,6 +128,9 @@ def para(text='', size=11, bold=False, align=None, indent=False, before=0,
     p = doc.add_paragraph()
     if align is not None:
         p.alignment = align
+    elif indent:
+        # 正文段落两端对齐（Elsevier 已发表论文标准）
+        p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
     pf = p.paragraph_format
     if indent:
         pf.first_line_indent = Pt(size * 2)
@@ -164,6 +167,14 @@ def h2(text):
     para(text, size=11.5, bold=True, indent=False, before=8, after=4, line=1.3)
 
 
+def _label_split(caption):
+    """'Fig. 1. text' / 'Table 1. text' -> ('Fig. 1.', ' text')"""
+    i = caption.find('. ')
+    if i == -1:
+        return None
+    return caption[:i + 1], caption[i + 1:]
+
+
 def add_fig(path, width_cm, caption):
     p = doc.add_paragraph()
     p.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -173,8 +184,12 @@ def add_fig(path, width_cm, caption):
     c = doc.add_paragraph()
     c.alignment = WD_ALIGN_PARAGRAPH.CENTER
     c.paragraph_format.space_after = Pt(10)
-    r = c.add_run(caption)
-    set_font(r, size=9.5)
+    parts = _label_split(caption)
+    if parts:
+        set_font(c.add_run(parts[0]), size=9.5, bold=True)
+        set_font(c.add_run(parts[1]), size=9.5)
+    else:
+        set_font(c.add_run(caption), size=9.5)
 
 
 def set_cell_borders(cell, top=None, bottom=None):
@@ -201,8 +216,14 @@ def sci_table(caption, header, rows, col_widths=None, font_size=8.5,
               bold_cells=None, note=None):
     """三线表 + 英文图注风格。bold_cells: set[(i,j)] 起于数据行(0=header后第一行)"""
     bold_cells = bold_cells or set()
-    para(caption, size=9.5, align=WD_ALIGN_PARAGRAPH.LEFT, indent=False,
-         before=8, after=3, line=1.15)
+    cp = para('', size=9.5, align=WD_ALIGN_PARAGRAPH.LEFT, indent=False,
+              before=8, after=3, line=1.15)
+    parts = _label_split(caption)
+    if parts:
+        set_font(cp.add_run(parts[0]), size=9.5, bold=True)
+        set_font(cp.add_run(parts[1]), size=9.5)
+    else:
+        set_font(cp.add_run(caption), size=9.5)
     t = doc.add_table(rows=len(rows) + 1, cols=len(header))
     t.alignment = WD_TABLE_ALIGNMENT.CENTER
     # 紧凑单元格边距（左右 0.08cm），保证宽表不超版心
@@ -239,7 +260,7 @@ def sci_table(caption, header, rows, col_widths=None, font_size=8.5,
             for i in range(len(rows) + 1):
                 t.cell(i, j).width = Cm(w)
     if note:
-        para(note, size=8, align=WD_ALIGN_PARAGRAPH.LEFT, indent=False,
+        para(note, size=8, align=WD_ALIGN_PARAGRAPH.JUSTIFY, indent=False,
              before=2, after=8, line=1.1)
     else:
         para('', size=4, indent=False, after=4)
@@ -336,6 +357,7 @@ para('Corresponding author: Jiasheng Li (E-mail: 703879709@qq.com)',
 NUM_DS = {9: 'nine', 8: 'eight', 7: 'seven', 6: 'six', 5: 'five', 4: 'four',
           3: 'three', 2: 'two'}
 p = doc.add_paragraph()
+p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
 p.paragraph_format.line_spacing = 1.3
 p.paragraph_format.space_after = Pt(4)
 r = p.add_run('Abstract: ')
@@ -415,6 +437,7 @@ r = p.add_run(abstract)
 set_font(r, size=10)
 
 p = doc.add_paragraph()
+p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
 p.paragraph_format.line_spacing = 1.3
 p.paragraph_format.space_after = Pt(12)
 r = p.add_run('Keywords: ')

@@ -984,6 +984,7 @@ def build_part2():
         if r is None:
             continue
         p = doc.add_paragraph()
+        p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
         pf = p.paragraph_format
         pf.line_spacing = 1.15
         pf.space_after = Pt(2)
